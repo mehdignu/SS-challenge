@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should expect to render the App component 1`] = `
+"<Provider store={{...}}>
+  <Connect(Lykon)>
+    <Lykon comics={{...}} fetchComics={[Function (anonymous)]}>
+      <BrowserRouter>
+        <Router history={{...}}>
+          <Switch>
+            <Route exact={true} path=\\"/\\" component={{...}} location={{...}} computedMatch={{...}}>
+              <Connect(HomePage) history={{...}} location={{...}} match={{...}} staticContext={[undefined]}>
+                <HomePage history={{...}} location={{...}} match={{...}} staticContext={[undefined]} comics={{...}} fetchComics={[Function (anonymous)]}>
+                  <div />
+                </HomePage>
+              </Connect(HomePage)>
+            </Route>
+          </Switch>
+        </Router>
+      </BrowserRouter>
+    </Lykon>
+  </Connect(Lykon)>
+</Provider>"
+`;
