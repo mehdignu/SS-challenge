@@ -3,3 +3,5 @@
 to run the project use: `docker-compose up`
 
 to run the tests go to /client and run `yarn test`
+
+http://localhost:8080/
